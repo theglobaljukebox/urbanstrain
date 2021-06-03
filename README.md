@@ -1,5 +1,8 @@
 # Urban Strain Data
 
+[![DOI](https://zenodo.org/badge/373319643.svg)](https://zenodo.org/badge/latestdoi/373319643)
+
+
 Urban Strain is a dataset forming part of [The Global Jukebox](https://theglobaljukebox.org/#). 
 For full details including detailed description of the datasets and how to use and interpret them, see:
 
