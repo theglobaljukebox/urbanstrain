@@ -44,7 +44,7 @@ def main():
     # Data sheet
     print("Downloading data into data.csv")
     SPREADSHEET_ID = '1ihrTZwDq744Piqyb2u-OBLf_zmcQr33XFdUBiDzeREU'
-    RANGE_NAME = "'US–wide'!A2:Y379"
+    RANGE_NAME = "'US–wide'!A2:Y"
     HEADER_RANGE = "'US–wide'!A1:Y1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     data_df = pd.DataFrame(data, columns = header[0])
@@ -54,7 +54,7 @@ def main():
     # # Song metadata sheet
     print("Downloading ensembles metadata into metadata.csv")
     SPREADSHEET_ID = '1RvYJbzTd7fH6FoQl9TC-BYVwxUl0E4ae6WXVMdAcIow'
-    RANGE_NAME = "'Sheet1'!A2:AS392"
+    RANGE_NAME = "'Sheet1'!A2:AS"
     HEADER_RANGE = "'Sheet1'!A1:AS1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     metadata_df = pd.DataFrame(data, columns = header[0])
